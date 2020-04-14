@@ -1,11 +1,25 @@
+body {
+    background: url(https://secure.i.telegraph.co.uk/multimedia/archive/01834/shuttle-slideshow_1834554i.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: black;
+}
 .avatar {
     border-radius: 50%;
     height: 100px;
     float:right;
 }
 
+h1 {
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: white;
+}
 .astronaut {
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -13,4 +27,9 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+    background-color: white;
+}
+
+.active {
+    color: green;
 }
